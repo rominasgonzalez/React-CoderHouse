@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget";
 import Nav from "./Nav"
 
 const Header = ({producto, saludo}) => {
@@ -10,6 +11,7 @@ const Header = ({producto, saludo}) => {
         <header id="main-header">
             <h1>{saludo}</h1>
             <Nav />
+            <CartWidget/>
         </header>
     )
 }
